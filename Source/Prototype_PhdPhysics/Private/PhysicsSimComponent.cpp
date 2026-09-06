@@ -9,9 +9,6 @@ UPhysicsSimComponent::UPhysicsSimComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 }
 
-
-//comment test
-
 void UPhysicsSimComponent::BeginPlay()
 {
 	Super::BeginPlay();
